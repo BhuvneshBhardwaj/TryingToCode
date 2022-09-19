@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression TestSuite">
+<test name="GroupsDemo">
+<groups>
+	<run>
+		<include name="calculator"></include>
+		<include name="strings"></include>
+	</run>
+</groups>
+	<classes>
+		<class name="practice.CalcTest"></class>
+	</classes>
+</test>
+</suite>

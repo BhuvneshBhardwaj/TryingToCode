@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" parallel name="chrome" value=>
+<test  name ="app Test one">
+<classes>
+<class name="practice.PracticeExercise"></class>
+</classes>
+</test>
+</suite>

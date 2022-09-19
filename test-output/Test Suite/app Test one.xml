@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="bhvi7" failures="0" tests="3" name="practice.CalcTest" time="0.153" errors="0" timestamp="13 Sep 2022 07:48:47 GMT">
+  <testcase classname="waitTypes.ExplicitWaitDemo" name="@BeforeMethod setUp" time="0.0">
+    <failure type="java.lang.IllegalStateException" message="The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases">
+      <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+	at waitTypes.ExplicitWaitDemo.setUp(ExplicitWaitDemo.java:24)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="waitTypes.ExplicitWaitDemo" name="@AfterMethod tearDown" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase classname="practice.CalcTest" name="sumTest" time="0.03"/>
+  <testcase classname="practice.CalcTest" name="test" time="0.004"/>
+  <testcase classname="waitTypes.ExplicitWaitDemo" name="test" time="0.003">
+    <skipped/>
+  </testcase>
+</testsuite>

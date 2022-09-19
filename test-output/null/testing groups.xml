@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="bhvi7" failures="0" tests="4" name="practice.CalcTest" time="0.038" errors="0" timestamp="13 Sep 2022 12:17:55 GMT">
+  <testcase classname="practice.CalcTest" name="divTest" time="0.018"/>
+  <testcase classname="practice.CalcTest" name="mulTest" time="0.001"/>
+  <testcase classname="practice.CalcTest" name="subTest" time="0.001"/>
+  <testcase classname="practice.CalcTest" name="sumTest" time="0.001"/>
+</testsuite>
